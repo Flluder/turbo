@@ -1,6 +1,6 @@
 --[[
 << تم برمجه وكتابه السورس من قبل مطور >>
-<<         @sajadhassan          >>
+<<         @daud          >>
 ]] 
 local function run(msg, matches) 
 local update = redis:get(boss..":VERSION")
